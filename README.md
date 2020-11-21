@@ -83,3 +83,9 @@ To resume working on the bot for testing after closing powershell, navigate agai
   ./env/Scripts/activate
   python app.py
   ```
+
+## Mac FAQs
+* After running the app, the pyhton laucher window pops up but does nothing. (Tested on macOS Big Sur, python 3.9)
+  ```
+   export QT_MAC_WANTS_LAYER=1
+  ```
